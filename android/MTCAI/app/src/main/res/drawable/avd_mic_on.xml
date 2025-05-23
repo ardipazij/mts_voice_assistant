@@ -1,0 +1,11 @@
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_mic_off">
+
+    <target
+        android:name="waves"
+        android:animation="@anim/waves_emerge"/>
+
+    <target
+        android:name="mic"
+        android:animation="@anim/mic_scale_up"/>
+</animated-vector>

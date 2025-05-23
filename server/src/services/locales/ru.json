@@ -1,0 +1,174 @@
+{
+    "commands": {
+        "turn_on_camera": "Включить камеру",
+        "turn_off_phone": "Выключить телефон",
+        "open_telegram": "Открыть Телеграм",
+        "open_whatsapp": "Открыть Ватсап",
+        "play_music": "Включить музыку",
+        "turn_on_light": "Включить фонарик",
+        "turn_off_light": "Выключить фонарик",
+        "open_browser": "Открыть браузер",
+        "call_contact": "Позвонить контакту",
+        "send_message": "Отправить сообщение",
+        "activate_voice_search": "Включить голосовой поиск",
+        "open_calendar": "Открыть календарь",
+        "create_event": "Создать событие",
+        "turn_off_sound": "Выключить звук",
+        "turn_on_sound": "Включить звук",
+        "set_alarm": "Установить будильник",
+        "answer_question": "Ответить на вопрос",
+        "open_maps": "Открыть карты",
+        "open_contacts": "Открыть контакты",
+        "open_phone": "Открыть телефон",
+        "turn_on_bluetooth": "Включить блютуз",
+        "turn_off_bluetooth": "Выключить блютуз",
+        "open_settings": "Открыть настройки",
+        "open_gallery": "Открыть галерею",
+        "open_notes": "Открыть заметки",
+        "create_note": "Создать заметку",
+        "search_note": "Найти заметку",
+        "open_note": "Открыть заметку",
+        "open_voice_recorder": "Открыть диктофон",
+        "start_recording": "Начать запись",
+        "stop_recording": "Закончить запись",
+        "open_clock": "Открыть часы",
+        "lock_screen": "Блокировка экрана"
+    },
+    "responses": {
+        "turn_on_camera": "Камера включена.",
+        "turn_off_phone": "Выключаю телефон...",
+        "open_telegram": "Открываю Телеграм.",
+        "open_whatsapp": "Открываю Ватсап.",
+        "play_music": "Включаю музыку.",
+        "turn_on_light": "Включаю фонарик.",
+        "turn_off_light": "Выключаю фонарик.",
+        "open_browser": "Открываю браузер.",
+        "call_contact": "Звоню контакту.",
+        "send_message": "Отправляю сообщение.",
+        "activate_voice_search": "Голосовой поиск активирован.",
+        "open_calendar": "Открываю календарь.",
+        "create_event": "Создаю событие",
+        "create_event_time": "На какое время создать событие?",
+        "create_event_title": "Как назвать событие?",
+        "create_event_success": "Создаю событие \"{title}\" на {time}.",
+        "turn_off_sound": "Звук выключен.",
+        "turn_on_sound": "Звук включен.",
+        "set_alarm": "Устанавливаю будильник",
+        "set_alarm_time": "На какое время установить будильник?",
+        "set_alarm_success": "Устанавливаю будильник на {time}.",
+        "search_internet": "Ищу в интернете.",
+        "answer_question": "",
+        "open_maps": "Открываю карты.",
+        "open_contacts": "Открываю контакты.",
+        "unknown": "Извините, я не понимаю запрос.",
+        "error": "Извините, произошла ошибка при обработке запроса.",
+        "turn_on_bluetooth": "Bluetooth включен.",
+        "turn_off_bluetooth": "Bluetooth выключен.",
+        "open_settings": "Открываю настройки.",
+        "open_gallery": "Открываю галерею.",
+        "open_notes": "Открываю заметки.",
+        "create_note": "Создаю заметку",
+        "create_note_title": "Как назвать заметку?",
+        "create_note_content": "Что записать в заметку?",
+        "create_note_success": "Создаю заметку \"{title}\" с текстом: {content}.",
+        "search_note": "Ищу заметки",
+        "search_note_query": "Что искать в заметках?",
+        "search_note_success": "Ищу заметки по запросу: {query}.",
+        "open_note": "Открываю заметку",
+        "open_note_title": "Какую заметку открыть?",
+        "open_note_success": "Открываю заметку \"{title}\".",
+        "open_voice_recorder": "Открываю диктофон.",
+        "start_recording": "Начинаю запись.",
+        "stop_recording": "Запись остановлена.",
+        "open_clock": "Открываю часы.",
+        "lock_screen": "Экран заблокирован.",
+        "assistant_description": "Я ваш голосовой ассистент. Я могу помочь вам с различными задачами, такими как установка будильников, создание заметок, поиск информации и многое другое. Просто скажите, что вам нужно.",
+        "emotional_responses": {
+            "love": "Я ваш помощник, и я всегда готов помочь вам с любыми задачами. Давайте сосредоточимся на том, чем я могу быть вам полезен.",
+            "sadness": "Я понимаю, что вы расстроены. Я здесь, чтобы помочь вам. Может быть, я могу помочь вам с чем-то конкретным?",
+            "emoji": "Я вижу, что вы используете эмодзи. Я ваш помощник, и я всегда готов помочь вам с любыми задачами."
+        },
+        "emotional_patterns": {
+            "love": ["люблю", "любимый", "любимая", "любовь", "влюблен", "влюблена"],
+            "sadness": ["грустно", "печально", "расстроен", "расстроена", "плачу", "грусть", "печаль"]
+        },
+        "call_contact_name": "Кому вы хотите позвонить?",
+        "call_contact_success": "Звоню {contact}.",
+        "send_message_contact": "Кому вы хотите отправить сообщение?",
+        "send_message_text": "Что вы хотите отправить?",
+        "send_message_success": "Отправляю сообщение {contact}: {message}.",
+        "open_browser_query": "Что вы хотите найти в интернете?",
+        "open_browser_success": "Ищу в интернете: {query}."
+    },
+    "prompts": {
+        "system": "Ты голосовой помощник. Ты отвечаешь на вопросы пользователя кратко, точно и информативно на русском языке.",
+        "user": "Вот список команд и их описаний:\n\n{examples}\n\nФраза пользователя: \"{query}\"\n\nОтветь только ключ команды из списка выше.",
+        "question": "Ты голосовой помощник. Дай краткий и информативный ответ на вопрос пользователя на русском языке.\n\nВопрос: {question}\n\nОтвет:"
+    },
+    "number_words": {
+        "один": 1,
+        "два": 2,
+        "три": 3,
+        "четыре": 4,
+        "пять": 5,
+        "шесть": 6,
+        "семь": 7,
+        "восемь": 8,
+        "девять": 9,
+        "десять": 10,
+        "одиннадцать": 11,
+        "двенадцать": 12
+    },
+    "time_periods": {
+        "утра": "00",
+        "дня": "12",
+        "вечера": "12",
+        "ночи": "00"
+    },
+    "parameterized_commands": {
+        "call_contact": ["contact"],
+        "send_message": ["contact", "message"],
+        "set_alarm": ["time"],
+        "create_event": ["title", "time"],
+        "search_internet": ["query"],
+        "answer_question": ["query"],
+        "open_browser": ["query"],
+        "create_note": ["title", "content"],
+        "search_note": ["query"],
+        "open_note": ["title"]
+    },
+    "command_transitions": {
+        "call_contact": {
+            "expected_params": ["contact"],
+            "prompts": ["Кому вы хотите позвонить?"]
+        },
+        "send_message": {
+            "expected_params": ["contact", "message"],
+            "prompts": ["Кому вы хотите отправить сообщение?", "Что вы хотите отправить?"]
+        },
+        "set_alarm": {
+            "expected_params": ["time"],
+            "prompts": ["На какое время установить будильник?"]
+        },
+        "create_event": {
+            "expected_params": ["title", "time"],
+            "prompts": ["Как назвать событие?", "На какое время?"]
+        },
+        "open_browser": {
+            "expected_params": ["query"],
+            "prompts": ["Что вы хотите найти в интернете?"]
+        },
+        "create_note": {
+            "expected_params": ["title", "content"],
+            "prompts": ["Как назвать заметку?", "Что записать в заметку?"]
+        },
+        "search_note": {
+            "expected_params": ["query"],
+            "prompts": ["Что искать в заметках?"]
+        },
+        "open_note": {
+            "expected_params": ["title"],
+            "prompts": ["Какую заметку открыть?"]
+        }
+    }
+} 

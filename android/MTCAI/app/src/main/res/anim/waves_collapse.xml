@@ -1,0 +1,17 @@
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <objectAnimator
+        android:propertyName="alpha"
+        android:duration="200"
+        android:startOffset="100"
+        android:valueFrom="1"
+        android:valueTo="0"/>
+
+    <objectAnimator
+        android:propertyName="pathData"
+        android:duration="300"
+        android:valueFrom="M7 12v1h2v-1H7zm4 4v-1h-2v1h2zm4-4v-1h-2v1h2z"
+        android:valueTo="M0 0h24v24H0z"
+        android:valueType="pathType"
+        android:interpolator="@android:interpolator/fast_out_slow_in"/>
+</set>

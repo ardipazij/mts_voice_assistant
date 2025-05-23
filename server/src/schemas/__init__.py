@@ -1,0 +1,1 @@
+from schemas.predict import PredictRequestSchema

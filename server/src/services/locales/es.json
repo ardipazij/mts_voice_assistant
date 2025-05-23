@@ -1,0 +1,174 @@
+{
+    "commands": {
+        "turn_on_camera": "Encender cámara",
+        "turn_off_phone": "Apagar teléfono",
+        "open_telegram": "Abrir Telegram",
+        "open_whatsapp": "Abrir WhatsApp",
+        "play_music": "Reproducir música",
+        "turn_on_light": "Encender linterna",
+        "turn_off_light": "Apagar linterna",
+        "open_browser": "Abrir navegador",
+        "call_contact": "Llamar contacto",
+        "send_message": "Enviar mensaje",
+        "activate_voice_search": "Activar búsqueda por voz",
+        "open_calendar": "Abrir calendario",
+        "create_event": "Crear evento",
+        "turn_off_sound": "Apagar sonido",
+        "turn_on_sound": "Encender sonido",
+        "set_alarm": "Establecer alarma",
+        "answer_question": "Responder pregunta",
+        "open_maps": "Abrir mapas",
+        "open_contacts": "Abrir contactos",
+        "open_phone": "Abrir teléfono",
+        "turn_on_bluetooth": "Activar Bluetooth",
+        "turn_off_bluetooth": "Desactivar Bluetooth",
+        "open_settings": "Abrir configuración",
+        "open_gallery": "Abrir galería",
+        "open_notes": "Abrir notas",
+        "create_note": "Crear nota",
+        "search_note": "Buscar nota",
+        "open_note": "Abrir nota",
+        "open_voice_recorder": "Abrir grabadora de voz",
+        "start_recording": "Iniciar grabación",
+        "stop_recording": "Detener grabación",
+        "open_clock": "Abrir reloj",
+        "lock_screen": "Bloquear pantalla"
+    },
+    "responses": {
+        "turn_on_camera": "Cámara encendida.",
+        "turn_off_phone": "Apagando teléfono...",
+        "open_telegram": "Abriendo Telegram.",
+        "open_whatsapp": "Abriendo WhatsApp.",
+        "play_music": "Reproduciendo música.",
+        "turn_on_light": "Encendiendo linterna.",
+        "turn_off_light": "Apagando linterna.",
+        "open_browser": "Abriendo navegador.",
+        "call_contact": "Llamando contacto.",
+        "send_message": "Enviando mensaje.",
+        "activate_voice_search": "Búsqueda por voz activada.",
+        "open_calendar": "Abriendo calendario.",
+        "create_event": "Creando evento",
+        "create_event_time": "¿A qué hora debe ser el evento?",
+        "create_event_title": "¿Cómo se debe llamar el evento?",
+        "create_event_success": "Creando evento \"{title}\" a las {time}.",
+        "turn_off_sound": "Sonido apagado.",
+        "turn_on_sound": "Sonido encendido.",
+        "set_alarm": "Configurando alarma",
+        "set_alarm_time": "¿A qué hora quieres que configure la alarma?",
+        "set_alarm_success": "Configurando alarma para las {time}.",
+        "search_internet": "Buscando en internet.",
+        "answer_question": "",
+        "open_maps": "Abriendo mapas.",
+        "open_contacts": "Abriendo contactos.",
+        "unknown": "Lo siento, no entiendo la solicitud.",
+        "error": "Lo siento, ocurrió un error al procesar la solicitud.",
+        "turn_on_bluetooth": "Bluetooth activado.",
+        "turn_off_bluetooth": "Bluetooth desactivado.",
+        "open_settings": "Abriendo configuración.",
+        "open_gallery": "Abriendo galería.",
+        "open_notes": "Abriendo notas.",
+        "create_note": "Creando nota",
+        "create_note_title": "¿Cómo quieres llamar a la nota?",
+        "create_note_content": "¿Qué quieres escribir en la nota?",
+        "create_note_success": "Creando nota \"{title}\" con texto: {content}.",
+        "search_note": "Buscando notas",
+        "search_note_query": "¿Qué quieres buscar en las notas?",
+        "search_note_success": "Buscando notas por: {query}.",
+        "open_note": "Abriendo nota",
+        "open_note_title": "¿Qué nota quieres abrir?",
+        "open_note_success": "Abriendo nota \"{title}\".",
+        "open_voice_recorder": "Abriendo grabadora de voz.",
+        "start_recording": "Iniciando grabación.",
+        "stop_recording": "Grabación detenida.",
+        "open_clock": "Abriendo reloj.",
+        "lock_screen": "Pantalla bloqueada.",
+        "assistant_description": "Soy tu asistente de voz. Puedo ayudarte con varias tareas como configurar alarmas, crear notas, buscar información y mucho más. Solo dime lo que necesitas.",
+        "emotional_responses": {
+            "love": "Soy tu asistente y estoy aquí para ayudarte con cualquier tarea. Centrémonos en cómo puedo ser útil para ti.",
+            "sadness": "Entiendo que te sientes triste. Estoy aquí para ayudar. ¿Hay algo específico en lo que pueda ayudarte?",
+            "emoji": "Veo que estás usando emojis. Soy tu asistente y estoy aquí para ayudarte con cualquier tarea."
+        },
+        "emotional_patterns": {
+            "love": ["amo", "amor", "querido", "querida", "enamorado", "enamorada"],
+            "sadness": ["triste", "deprimido", "deprimida", "llorando", "infeliz", "desanimado", "desanimada"]
+        },
+        "call_contact": "Llamando contacto",
+        "call_contact_name": "¿A quién quieres llamar?",
+        "call_contact_success": "Llamando a {contact}.",
+        "send_message": "Enviando mensaje",
+        "send_message_contact": "¿A quién quieres enviar un mensaje?",
+        "send_message_text": "¿Qué quieres enviar?",
+        "send_message_success": "Enviando mensaje a {contact}: {message}."
+    },
+    "prompts": {
+        "system": "Eres un asistente de voz. Respondes a las preguntas del usuario de manera breve, precisa e informativa en español.",
+        "user": "Aquí hay una lista de comandos y sus descripciones:\n\n{examples}\n\nFrase del usuario: \"{query}\"\n\nResponde solo con la clave del comando de la lista anterior.",
+        "question": "Eres un asistente de voz. Da una respuesta breve e informativa a la pregunta del usuario en español.\n\nPregunta: {question}\n\nRespuesta:"
+    },
+    "number_words": {
+        "uno": 1,
+        "dos": 2,
+        "tres": 3,
+        "cuatro": 4,
+        "cinco": 5,
+        "seis": 6,
+        "siete": 7,
+        "ocho": 8,
+        "nueve": 9,
+        "diez": 10,
+        "once": 11,
+        "doce": 12
+    },
+    "time_periods": {
+        "mañana": "00",
+        "tarde": "12",
+        "noche": "12",
+        "madrugada": "00"
+    },
+    "parameterized_commands": {
+        "call_contact": ["contact"],
+        "send_message": ["contact", "message"],
+        "set_alarm": ["time"],
+        "create_event": ["title", "time"],
+        "search_internet": ["query"],
+        "answer_question": ["query"],
+        "open_browser": ["query"],
+        "create_note": ["title", "content"],
+        "search_note": ["query"],
+        "open_note": ["title"]
+    },
+    "command_transitions": {
+        "call_contact": {
+            "expected_params": ["contact"],
+            "prompts": ["¿A quién quieres llamar?"]
+        },
+        "send_message": {
+            "expected_params": ["contact", "message"],
+            "prompts": ["¿A quién quieres enviar un mensaje?", "¿Qué quieres enviar?"]
+        },
+        "set_alarm": {
+            "expected_params": ["time"],
+            "prompts": ["¿A qué hora quieres que configure la alarma?"]
+        },
+        "create_event": {
+            "expected_params": ["title", "time"],
+            "prompts": ["¿Cómo se debe llamar el evento?", "¿A qué hora debe ser el evento?"]
+        },
+        "open_browser": {
+            "expected_params": ["query"],
+            "prompts": ["¿Qué quieres buscar en internet?"]
+        },
+        "create_note": {
+            "expected_params": ["title", "content"],
+            "prompts": ["¿Cómo quieres llamar a la nota?", "¿Qué quieres escribir en la nota?"]
+        },
+        "search_note": {
+            "expected_params": ["query"],
+            "prompts": ["¿Qué quieres buscar en las notas?"]
+        },
+        "open_note": {
+            "expected_params": ["title"],
+            "prompts": ["¿Qué nota quieres abrir?"]
+        }
+    }
+} 

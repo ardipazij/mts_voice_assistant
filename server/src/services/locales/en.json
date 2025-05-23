@@ -1,0 +1,178 @@
+{
+    "commands": {
+        "turn_on_camera": "Turn on camera",
+        "turn_off_phone": "Turn off phone",
+        "open_telegram": "Open Telegram",
+        "open_whatsapp": "Open WhatsApp",
+        "play_music": "Play music",
+        "turn_on_light": "Turn on flashlight",
+        "turn_off_light": "Turn off flashlight",
+        "open_browser": "Open browser",
+        "call_contact": "Call contact",
+        "send_message": "Send message",
+        "activate_voice_search": "Activate voice search",
+        "open_calendar": "Open calendar",
+        "create_event": "Create event",
+        "turn_off_sound": "Turn off sound",
+        "turn_on_sound": "Turn on sound",
+        "set_alarm": "Set alarm",
+        "answer_question": "Answer question",
+        "open_maps": "Open maps",
+        "open_contacts": "Open contacts",
+        "open_phone": "Open phone",
+        "turn_on_bluetooth": "Turn on Bluetooth",
+        "turn_off_bluetooth": "Turn off Bluetooth",
+        "open_settings": "Open settings",
+        "open_gallery": "Open gallery",
+        "open_notes": "Open notes",
+        "create_note": "Create note",
+        "search_note": "Search note",
+        "open_note": "Open note",
+        "open_voice_recorder": "Open voice recorder",
+        "start_recording": "Start recording",
+        "stop_recording": "Stop recording",
+        "open_clock": "Open clock",
+        "lock_screen": "Lock screen"
+    },
+    "responses": {
+        "turn_on_camera": "Camera is turned on.",
+        "turn_off_phone": "Turning off phone...",
+        "open_telegram": "Opening Telegram.",
+        "open_whatsapp": "Opening WhatsApp.",
+        "play_music": "Playing music.",
+        "turn_on_light": "Turning on flashlight.",
+        "turn_off_light": "Turning off flashlight.",
+        "open_browser": "Opening browser.",
+        "call_contact": "Calling contact.",
+        "send_message": "Sending message.",
+        "activate_voice_search": "Voice search activated.",
+        "open_calendar": "Opening calendar.",
+        "create_event": "Creating event",
+        "create_event_time": "What time should the event be?",
+        "create_event_title": "What should the event be called?",
+        "create_event_success": "Creating event \"{title}\" at {time}.",
+        "turn_off_sound": "Sound is turned off.",
+        "turn_on_sound": "Sound is turned on.",
+        "set_alarm": "Setting alarm",
+        "set_alarm_time": "What time should I set the alarm for?",
+        "set_alarm_success": "Setting alarm for {time}.",
+        "search_internet": "Searching the internet.",
+        "answer_question": "",
+        "open_maps": "Opening maps.",
+        "open_contacts": "Opening contacts.",
+        "unknown": "Sorry, I don't understand the request.",
+        "error": "Sorry, an error occurred while processing the request.",
+        "turn_on_bluetooth": "Bluetooth is turned on.",
+        "turn_off_bluetooth": "Bluetooth is turned off.",
+        "open_settings": "Opening settings.",
+        "open_gallery": "Opening gallery.",
+        "open_notes": "Opening notes.",
+        "create_note": "Creating note",
+        "create_note_title": "What should I name the note?",
+        "create_note_content": "What should I write in the note?",
+        "create_note_success": "Creating note \"{title}\" with text: {content}.",
+        "search_note": "Searching notes",
+        "search_note_query": "What should I search for in the notes?",
+        "search_note_success": "Searching notes for: {query}.",
+        "open_note": "Opening note",
+        "open_note_title": "Which note should I open?",
+        "open_note_success": "Opening note \"{title}\".",
+        "open_voice_recorder": "Opening voice recorder.",
+        "start_recording": "Starting recording.",
+        "stop_recording": "Recording stopped.",
+        "open_clock": "Opening clock.",
+        "lock_screen": "Screen is locked.",
+        "assistant_description": "I am your voice assistant. I can help you with various tasks such as setting alarms, creating notes, searching for information, and much more. Just tell me what you need.",
+        "emotional_responses": {
+            "love": "I'm your assistant, and I'm here to help you with any tasks. Let's focus on how I can be useful to you.",
+            "sadness": "I understand you're feeling down. I'm here to help. Is there something specific I can assist you with?",
+            "emoji": "I see you're using emojis. I'm your assistant, and I'm here to help you with any tasks."
+        },
+        "emotional_patterns": {
+            "love": ["love", "loving", "beloved", "sweetheart", "darling", "in love"],
+            "sadness": ["sad", "upset", "unhappy", "crying", "depressed", "heartbroken"]
+        },
+        "call_contact": "Calling contact",
+        "call_contact_name": "Who do you want to call?",
+        "call_contact_success": "Calling {contact}.",
+        "send_message": "Sending message",
+        "send_message_contact": "Who do you want to send a message to?",
+        "send_message_text": "What do you want to send?",
+        "send_message_success": "Sending message to {contact}: {message}."
+    },
+    "prompts": {
+        "system": "You are a voice assistant. You answer user questions briefly, accurately and informatively in English.",
+        "user": "Here is a list of commands and their descriptions:\n\n{examples}\n\nUser phrase: \"{query}\"\n\nAnswer only with the command key from the list above.",
+        "question": "You are a voice assistant. Give a brief and informative answer to the user's question in English.\n\nQuestion: {question}\n\nAnswer:"
+    },
+    "number_words": {
+        "one": 1,
+        "two": 2,
+        "three": 3,
+        "four": 4,
+        "five": 5,
+        "six": 6,
+        "seven": 7,
+        "eight": 8,
+        "nine": 9,
+        "ten": 10,
+        "eleven": 11,
+        "twelve": 12
+    },
+    "time_periods": {
+        "morning": "00",
+        "afternoon": "12",
+        "evening": "12",
+        "night": "00"
+    },
+    "parameterized_commands": {
+        "call_contact": ["contact"],
+        "send_message": ["contact", "message"],
+        "set_alarm": ["time"],
+        "create_event": ["title", "time"],
+        "search_internet": ["query"],
+        "answer_question": ["query"],
+        "open_browser": ["query"],
+        "create_note": ["title", "content"],
+        "search_note": ["query"],
+        "open_note": ["title"]
+    },
+    "command_transitions": {
+        "call_contact": {
+            "expected_params": ["contact"],
+            "prompts": ["Who do you want to call?"]
+        },
+        "send_message": {
+            "expected_params": ["contact", "message"],
+            "prompts": ["Who do you want to send a message to?", "What do you want to send?"]
+        },
+        "set_alarm": {
+            "expected_params": ["time"],
+            "prompts": ["What time should I set the alarm for?"]
+        },
+        "create_event": {
+            "expected_params": ["title", "time"],
+            "prompts": ["What should the event be called?", "What time should the event be?"]
+        },
+        "open_browser": {
+            "expected_params": ["query"],
+            "prompts": ["What do you want to search for?"]
+        },
+        "create_note": {
+            "expected_params": ["title", "content"],
+            "prompts": ["What should I name the note?", "What should I write in the note?"]
+        },
+        "search_note": {
+            "expected_params": ["query"],
+            "prompts": ["What should I search for in the notes?"]
+        },
+        "open_note": {
+            "expected_params": ["title"],
+            "prompts": ["Which note should I open?"]
+        },
+        "open_browser": {
+            "expected_params": ["query"],
+            "prompts": ["What do you want to search for?"]
+        }
+    }
+} 
